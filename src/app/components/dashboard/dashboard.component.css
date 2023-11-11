@@ -1,0 +1,118 @@
+  
+ .container{
+    background-color: #3FBAE4;
+ }
+ 
+ .btn-success{
+    background-color:blue;
+}
+.add{
+    margin-left: 80px;
+}
+.form-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 100;
+}
+.student-form{
+    background-color: aliceblue; 
+    width: 600px;
+    padding: 20px 50px;
+    border-radius: 5px;
+
+}
+.formControl{
+    width: 90%;
+}
+.group{
+    display: flex;
+    margin: 15px 0;
+
+}
+.group label{
+    width: 70px;
+    line-height: 40px;
+    height: 40px;
+}
+.action{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 20px;
+}
+
+.btn1{
+    margin-right: 100%;
+  color: azure;
+    background-color: blue;
+}
+ 
+ .input-group .inputbox{
+width: 1000px;
+height: 40px;
+ }
+ 
+ .fa-user{
+    font-size:20px;
+    padding: 10px;
+ } 
+ .bg-info{
+    width: 100px;
+ } 
+ .box{
+   
+    height: 200px;
+ }
+ 
+ 
+ 
+ table {
+    width: 100%;
+    margin-top: 10px;
+
+} 
+ 
+    .search-box {
+        position: relative;        
+        float: right;
+    }
+    .search-box input {
+        height: 34px;
+        border-radius: 20px;
+        padding-left: 35px;
+        border-color: #ddd;
+        box-shadow: none;
+    }
+    .search-box input:focus {
+        border-color: #3FBAE4;
+    }
+    .search-box i {
+        color: #a0a5b1;
+        position: absolute;
+        font-size: 19px;
+        top: 8px;
+        left: 10px;
+    }
+ 
+.p-4{
+/* background-color: pink; */
+
+}
+.text{
+    text-align: center;
+    background-color: #3FBAE4;
+}
+footer{
+
+    background-color: pink;
+    margin-bottom: 0px;
+}
+ 
+ 

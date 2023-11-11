@@ -1,0 +1,52 @@
+<div class="main">
+   <div class="container">
+      <form action=" " method="post" (ngSubmit)="onSubmit()">
+         <h2>Register Here!!</h2>
+         <div class="content">
+
+            <div clas="input-box">
+               <label for="fname" text-color="black">FirstName</label>
+       
+               <input type="text" required #fname="ngModel" class="form-control"
+                  [class.is-invalid]="fname.invalid && fname.touched" [(ngModel)]="Users.firstName"
+                   name="firstName"><p></p>
+               <small class="text-danger" [class.d-none]="fname.valid || fname.untouched">name is required</small>
+            </div>
+
+            <div clas="input-box">
+               <label for="lname">LastName</label>
+               
+               <input type="text" #lname="ngModel" class="form-control"
+                  [class.is-invalid]="lname.invalid && lname.touched" [(ngModel)]="Users.lastName"
+                 name="lastName" required><p></p>
+               <small class="text-danger" [class.d-none]="lname.valid || lname.untouched">username cont leave
+                  empty</small>
+            </div>
+            
+            <div clas="input-box">
+               <label for="email">Email</label>
+               
+               <input type="email" required #email="ngModel" class="form-control"
+                  [class.is-invalid]="email.invalid && email.touched" [(ngModel)]="Users.email"
+                   name="email" required><p></p>
+               <small class="text-danger" [class.d-none]="email.valid || email.untouched">must containt onecapital
+                  letter,one symbol,and number</small>
+            </div>
+            
+            <div clas="input-box">
+               <label for="password">Password</label>
+               
+               <input type="password" required #password="ngModel" class="form-control"
+                  [class.is-invalid]="password.invalid && password.touched" [(ngModel)]="Users.password"
+                  name="password"><p></p>
+               <small class="text-danger" [class.d-none]="password.valid || password.untouched">enter your password</small>
+            </div>
+
+         </div>
+ 
+   <div class="button-container">
+      <button type="submit">Register</button>
+   </div>
+   </form>
+</div>
+ 
